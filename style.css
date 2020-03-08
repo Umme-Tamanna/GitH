@@ -1,0 +1,43 @@
+
+
+body{
+    background-image: url(image/lppic.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+h1{
+    text-align: center;
+    padding: 260px 190px 20px;
+    font-size: 3 rem;
+    color: yellowgreen;
+}
+
+.btn-xl{
+    padding: 1rem 2rem;
+}
+
+.btn{
+    margin-left: 650px;
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: #f05f44;
+    border: #f05f44;
+}
+
+.btn-primary:hover{
+    background-color: #ee4b08;
+    border: #ee4b08;
+    border-width: 4px;
+}
+
+hr{
+    border-color:#f06f44;
+    border-width: 1px;
+    max-width: 400px; 
+}

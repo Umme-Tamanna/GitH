@@ -2,7 +2,7 @@
 body{
     background-image: url(image/lppic.jpg);
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     height: 100%;
     display: block;
     margin: 10px;

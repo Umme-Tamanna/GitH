@@ -8,7 +8,7 @@ body{
 
 .flex-container {
     width: 100%;
-    height: 400px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,6 @@ h1{
     font-weight: 700;
     border-radius: 30px;
     text-transform: uppercase;
-    padding: 150p 20px;
 }
 
 .btn-primary{

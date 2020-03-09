@@ -16,10 +16,6 @@ body{
     align-items: center;
 }
 
-/*div{
-    display: block;
-}*/
-
 h1{
     text-align: center;
     padding: 100px 190px 10px;
@@ -47,7 +43,6 @@ h1{
     background-color: #0817ee;
     border: #ee4b08;
     border-width: 4px;
-    padding: 100px;
 }
 
 hr{

@@ -56,16 +56,16 @@ hr{
     }
 
     h1{
-        padding: 260px 0px 30px;
+        padding: 150px 0px 20px;
     }
 
     .btn-xl{
-        padding: 0 0;
+        padding: 0px 0px;
     }
     
     .btn{
-        margin-left: 5px;
-        border-radius: 10px;
+        margin-left: 1px;
+        border-radius: 5px;
         text-transform: uppercase;
     }
     
@@ -75,7 +75,7 @@ hr{
     
     hr{
         border-width: 1px;
-        margin-bottom: 5px;
+        margin-bottom: 1px;
         max-width: 20px; 
     }
     

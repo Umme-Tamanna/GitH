@@ -4,7 +4,6 @@ body{
     background-size: cover;
     background-repeat: repeat-x;
     height: 100%;
-    display: block;
     margin: 10px;
 }
 

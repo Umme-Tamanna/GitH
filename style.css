@@ -5,12 +5,18 @@ body{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;}
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
 
 h1{
     text-align: center;
     padding: 260px 190px 20px;
-    font-size: 3 rem;
+    font-size: 3rem;
     color: yellowgreen;
 }
 
@@ -26,18 +32,19 @@ h1{
 }
 
 .btn-primary{
-    background-color: #f05f44;
+    background-color: #44f0d9;
     border: #f05f44;
 }
 
 .btn-primary:hover{
-    background-color: #ee4b08;
+    background-color: #0817ee;
     border: #ee4b08;
     border-width: 4px;
 }
 
 hr{
-    border-color:#f06f44;
+    border-color:#f0449a;
     border-width: 1px;
-    max-width: 400px; 
+    margin-bottom: 45px;
+    max-width: 450px; 
 }

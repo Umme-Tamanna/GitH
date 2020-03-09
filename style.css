@@ -1,5 +1,4 @@
 
-
 body{
     background-image: url(image/lppic.jpg);
     -webkit-background-size: cover;
@@ -10,13 +9,14 @@ body{
 }
 
 .flex-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 h1{
     text-align: center;
-    padding: 260px 190px 20px;
+    padding: 230px 190px 15px;
     font-size: 3rem;
     color: yellowgreen;
 }
@@ -28,7 +28,7 @@ h1{
 .btn{
     margin-left: 650px;
     font-weight: 700;
-    border-radius: 300px;
+    border-radius: 30px;
     text-transform: uppercase;
 }
 
@@ -46,6 +46,38 @@ h1{
 hr{
     border-color:#f0449a;
     border-width: 1px;
-    margin-bottom: 45px;
-    max-width: 450px; 
+    margin-bottom: 5px;
+    max-width: 80px; 
+}
+
+@media only screen (min width 1000px) {
+    .flex-container{
+        width: 1000px;
+    }
+
+    h1{
+        padding: 260px 0px 30px;
+    }
+
+    .btn-xl{
+        padding: 0 0;
+    }
+    
+    .btn{
+        margin-left: 5px;
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+    
+    .btn-primary:hover{
+        border-width: 1px;
+    }
+    
+    hr{
+        border-width: 1px;
+        margin-bottom: 5px;
+        max-width: 20px; 
+    }
+    
+
 }
